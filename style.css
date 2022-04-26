@@ -1,0 +1,88 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+.choice-grid {
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.choice-grid div {
+  background-color: #f4f4f4;
+  border: 1px solid #dcdcdc;
+  width: 32.5%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.choice-grid img {
+  width: 100%;
+}
+@media (max-width: 700px) {
+  article {
+    margin: auto;
+    width: 95%;
+  }
+  header div {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+    .choice-grid div {
+     
+        width: 49%;
+   
+      }
+}
+
+.selected{
+    background-color: #cfe3ff;
+}
+.unselected{
+    opacity: 0.6;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+#resultTitle{
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 18px;
+
+}
+#resultButton{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: #cecece;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#resultButton:hover{
+
+    
+    background-color: #e0e0e0;
+    
+}
+.hidden{
+    display: none;
+}
+
+.brano{
+ height: auto;
+ width: 100px;
+}
+
+.titolo{
+  font-size: medium;
+}
+
+.style{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
